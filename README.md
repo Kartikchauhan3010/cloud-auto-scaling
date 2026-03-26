@@ -5,7 +5,7 @@ depending on system load.
 
 The goal is to demonstrate how cloud platforms automatically scale
 resources when demand changes.
-Architecture
+# Architecture
 
 Frontend:
 - HTML
@@ -14,12 +14,13 @@ Frontend:
 
 Backend:
 - Python (Flask)
-
-Modules:
+- 
+# Modules:
 - app.py → handles web server and API
 - scaler.py → scaling logic
 - script.js → frontend data updates
-- Installation
+  
+# Installation
 
 1. Clone the repository
 git clone https://github.com/Kartikchauhan3010/cloud-auto-scaling.git
@@ -33,23 +34,23 @@ pip install flask
 4. Run the application
 python app.py
 
-Usage
+# Usage
 
 - The system generates simulated CPU load.
 - When load exceeds a threshold, the scaler adds instances.
 - When load decreases, instances are reduced.
 - Graphs display load and scaling behavior.
 
-- Output
+# Output
 
 - Graph showing CPU load
 - Graph showing number of instances
 - Dynamic scaling decisions
 
-- Future Improvements
+# Future Improvements
 - Integration with real cloud APIs
 - Kubernetes-based scaling
 - Real load testing tools
 - Prometheus metrics
 
-- http://127.0.0.1:5000
+  # http://127.0.0.1:5000
