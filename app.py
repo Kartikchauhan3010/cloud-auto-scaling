@@ -1,4 +1,4 @@
-
+from flask import Flask, render_template, jsonify
 from scaler import get_system_metrics
 
 app = Flask(__name__, template_folder="templates")
